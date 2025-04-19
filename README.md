@@ -69,3 +69,79 @@ git clone https://github.com/your-username/heart_disease_prediction.git
 📈 Results
 
 The Random Forest model provided the highest accuracy among all tested algorithms, indicating its strong performance for this classification task.
+
+Thanks!
+```
+
+
+
+# Medical Recommendation System
+
+This project presents a **Medical Recommendation System** designed to suggest treatments or precautions based on user-reported symptoms. The system leverages machine learning classification models to map symptoms to diseases and recommend appropriate medical actions.
+
+## 🩺 Project Objective
+
+To build an intelligent system capable of analyzing patient symptoms and predicting the most likely disease, followed by recommending basic precautions.
+
+## 📚 Dataset
+
+The dataset includes:
+
+- A set of symptoms per patient
+- Diagnosed disease
+- Suggested precautions
+
+It is designed to train the system on mappings between symptoms and diseases, and provide relevant medical advice.
+
+## 🧪 Models Used
+
+- Decision Tree Classifier
+- Random Forest Classifier
+- Naive Bayes Classifier
+
+### Techniques:
+
+- Label Encoding for categorical symptoms
+- Train-test split
+- Accuracy measurement
+
+## ⚙️ Features
+
+- Input: List of user symptoms
+- Output:
+  - Predicted disease
+  - Recommended precautions
+- Model comparison via accuracy and performance metrics
+
+## 📊 Evaluation
+
+Models were evaluated using:
+
+- Accuracy Score
+- Classification Report
+- Confusion Matrix
+
+The Random Forest classifier generally produced the highest accuracy and better generalization on test data.
+
+## 🚀 How to Use
+
+### Prerequisites
+
+Install required packages:
+
+```bash
+pip install pandas numpy scikit-learn
+
+Running the Notebook
+	1.	Clone the repository:
+
+git clone https://github.com/your-username/medical-recommendation-system.git
+
+
+	2.	Open med-recc.ipynb in Jupyter Notebook or any compatible environment.
+	3.	Run all cells to train models and interact with the system.
+
+🔒 Disclaimer
+
+This system is a prototype and is not intended to replace professional medical diagnosis. Always consult a certified healthcare provider for medical advice.
+
